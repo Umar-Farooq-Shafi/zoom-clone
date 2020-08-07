@@ -3,7 +3,7 @@ const socket = io("/");
 const peer = new Peer({
   path: "/peerjs",
   host: "/",
-  port: 8080
+  port: '443'
 });
 
 // creating DOM Element
